@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100svh;
+    background:lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+   
+.childcont{
+    width: 360px;
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.image{
+    border-radius: 16px;
+    width: 360px;
+    height: 216px;
+}
+
+.foodicons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.content{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6E798C;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.validaty{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #6E798C;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+button{
+    width: 114px;
+    height: 44px;
+    border-radius: 16px;
+    background-color: greenyellow;
+}
